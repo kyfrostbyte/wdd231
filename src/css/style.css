@@ -257,11 +257,9 @@ a:hover {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 0.5rem 6rem;
+  padding: 0;
   background-color: var(--bs-black);
-  margin: 0 auto;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding: 1rem 2rem;
 }
 
 .nav-links ul li a {
@@ -274,6 +272,7 @@ a:hover {
 
 .nav-links ul li {
   list-style: none;
+  max-width: 500px;
 }
 
 /* Main Styles */
